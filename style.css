@@ -21,10 +21,10 @@ h1 {
 
 
     grid-template-areas: 
-        "Grid1 Grid1 Grid2 Grid3"
-        "Grid4 Grid4 Grid4 Grid5"
-        "Grid6 Grid6 Grid6 Grid6"
-        "Grid7 Grid8 Grid9 Grid9";
+        "grid1 grid1 grid2 grid3"
+        "grid4 grid4 grid4 grid5"
+        "grid6 grid6 grid6 grid6"
+        "grid7 grid8 grid9 grid9";
 }
 
 
@@ -44,24 +44,24 @@ h1 {
 
 .grid-item:nth-child(1) {
     background-color: #877527;
-    grid-area: Grid1;
+    grid-area: grid1;
     width: auto;
 }
 
 .grid-item:nth-child(4) {
     background-color: #23567d;
-    grid-area: Grid4;
+    grid-area: grid4;
     width: auto;
 }
 
 .grid-item:nth-child(6) {
     background-color: #75147c;
-    grid-area: Grid6;
+    grid-area: grid6;
     width: auto;
 }
 
 .grid-item:nth-child(9) {
-    grid-area: Grid9;
+    grid-area: grid9;
     background-color: #82adb7;
     width: auto;
 }
